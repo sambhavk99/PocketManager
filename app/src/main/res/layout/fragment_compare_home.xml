@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CompareHomeFragment"
+    android:background="@mipmap/background"
+    android:scrollbars="vertical"
+    >
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compare_welcome_text"
+        android:textSize="34sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColorHighlight="@color/BlueViolet"
+        android:textColor="@color/White"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_range"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/White"
+        android:layout_gravity="center_horizontal"
+        />
+
+        <Button
+            android:id="@+id/compare_date1_start"
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:foregroundGravity="center_horizontal"
+            android:textAlignment="center"
+            android:background="@color/Pink"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/start_date" />
+
+        <Button
+            android:id="@+id/compare_date1_end"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:foregroundGravity="center_horizontal"
+            android:textAlignment="center"
+            android:background="@color/LightPink"
+            android:gravity="center_vertical"
+            android:text="@string/end_date" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_range_2"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/White"
+        android:textColorHighlight="@color/BlueViolet"
+        android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/compare_date2_start"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:background="@color/Pink"
+            android:gravity="center_vertical"
+            android:text="@string/start_date" />
+
+        <Button
+            android:id="@+id/compare_date2_end"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/LightPink"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:text="@string/end_date" />
+
+        <Button
+            android:id="@+id/get_comparison_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@color/LightBlue"
+            android:text="Compare" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

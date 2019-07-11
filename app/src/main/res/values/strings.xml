@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Pokkt Manager</string>
+    <string name="welcome_text">Welcome to Pocket Manager</string>
+    <string name="Login">Login</string>
+    <string name="Create">Create Account</string>
+    <string name="Learn_More">About Us</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="Name">Name</string>
+    <string name="login_preference">com.example.pokktmanager_login_preference</string>
+    <string name="login_status">com.example.pokktmanager_login_status</string>
+    <string name="add_icon">Add new Income/Expense</string>
+    <string name="search">Search Using Tag</string>
+    <string name="LogOut">Log Out</string>
+    <string name="tag">Category</string>
+    <string name="summary_acc">Account and Summary</string>
+    <string name="Total_income">Total Income</string>
+    <string name="Total_expense">Total Expense</string>
+    <string name="weekly">This Week</string>
+    <string name="daily">Today</string>
+    <string name="monthly">This Month</string>
+    <string name="compare">Compare Expenses</string>
+    <string name="compare_welcome_text">Compare Your Expenses</string>
+    <string name="date_range">Enter a Date Range</string>
+    <string name="date_range_2">Enter another Date Range</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="date_format">(YYYY-MM-DD)</string>
+    <string name="pick_date">Select Date</string>
+    <string name="comparison_results">Comparison Results</string>
+    <string name="About_us_text">
+        Have you ever thought of keeping track of your daily expenses? You must have.
+        Here\'s presenting you an app which will make the things simpler for you,
+        an app to manage all your incomes and expenses,
+        an app to keep track of your pocket.
+    </string>
+    <string name="features_app">
+        1. Local authentication system,which keeps your data secure and enables multiple accounts one one device.\n\n
+        2. Create an account, Login and add your incomes and expenses.\n\n
+        3. Add tag or category for each type of income and expenditure.\n\n
+        3. You can view summary of the income and expenses - daily, weekly, monthly.\n\n
+        4. Interactive graphs for income and expenses, to help you analyze your pocket better.\n\n
+        5. You can compare your expenses in two different time ranges.\n\n
+        6. You can search for expenses (Using dates and tags as search fields).
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="x">X</string>
+</resources>

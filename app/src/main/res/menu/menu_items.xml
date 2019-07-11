@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/select_add_amount"
+        android:title="@string/add_icon"
+        android:icon="@mipmap/twotone_add_circle_outline_white_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/search_by_tag"
+        android:title="@string/search"
+        android:icon="@mipmap/twotone_search_white_24dp"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/Summary"
+        android:title="@string/summary_acc"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Compare"
+        android:title="@string/compare"
+        android:icon="@mipmap/outline_compare_arrows"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <item
+        android:id="@+id/logout_icon"
+        android:title="@string/LogOut"
+        app:showAsAction="never"/>
+
+
+</menu>
