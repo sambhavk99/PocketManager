@@ -21,13 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public static BroadcastReceiver broadcastReceiver;
     ///public static LoggedInUser loggedInUser;
     private SharedPreferenceConfig preferenceConfig;
-    /*static final Migration MIGRATION_1_3 = new Migration(1, 3) {
-        @Override
-        public void migrate(SupportSQLiteDatabase database) {
-            database.execSQL("CREATE TABLE IF NOT EXISTS `user` (`email` TEXT, "
-                    + "`name` TEXT, `password` TEXT, PRIMARY KEY(`email`))");
-        }
-    };*/
+    
 
     private Button signUp,login,about;
     @Override

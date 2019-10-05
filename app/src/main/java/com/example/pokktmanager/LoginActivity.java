@@ -41,9 +41,13 @@ public class LoginActivity extends AppCompatActivity{
                 String Email = email.getText().toString();
                 String Pass = password.getText().toString();
                 boolean flag=true;
-                if(Email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(Email).matches())
+                if(Email.isEmpty()))
                 {
-                    email.setError("Invalid Email");
+                    email.setError("Enter email");
+                    flag=false;
+                }
+                else if( !android.util.Patterns.EMAIL_ADDRESS.matcher(Email).matches()){                
+                    email.setError("Enter correct mail id");
                     flag=false;
                 }
                 if(Pass.isEmpty())
