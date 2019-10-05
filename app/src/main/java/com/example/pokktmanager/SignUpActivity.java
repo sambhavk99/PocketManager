@@ -55,7 +55,7 @@ public class SignUpActivity extends AppCompatActivity {
                     name.setError("Empty field");
                     flag=false;
                 }
-                if(Email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(Email).matches())
+                if(Email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(Email).matches())                
                 {
                     email.setError("Invalid Email");
                     flag=false;
@@ -103,7 +103,7 @@ public class SignUpActivity extends AppCompatActivity {
         }
 
         @Override
-        protected void onPostExecute(Boolean aBoolean) {
+        protected void onPostExecute(Boolean aBoolean) {                    // from where this function is called
             super.onPostExecute(aBoolean);
             if(aBoolean){
                 Toast.makeText(SignUpActivity.this, "Account Created Successfully", Toast.LENGTH_SHORT).show();
