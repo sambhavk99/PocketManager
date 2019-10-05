@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity{
                 String Email = email.getText().toString();
                 String Pass = password.getText().toString();
                 boolean flag=true;
-                if(Email.isEmpty()))
+                if(Email.isEmpty())
                 {
                     email.setError("Enter email");
                     flag=false;
@@ -97,7 +97,7 @@ public class LoginActivity extends AppCompatActivity{
                 finish();
             }
             else{
-                Toast.makeText(LoginActivity.this, "User Not Found!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "User Not Found!! Enter Valid Credentials!!", Toast.LENGTH_SHORT).show();
             }
 
         }
